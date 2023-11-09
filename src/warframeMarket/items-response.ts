@@ -1,5 +1,5 @@
-import { Item } from "./item"
-import { Order } from "./order"
+import { Item } from "./item.js"
+import { Order } from "../order.js"
 
 export interface ItemsResponse {
     payload: {

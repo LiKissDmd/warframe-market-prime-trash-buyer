@@ -1,19 +1,8 @@
-import { Item } from "./item"
-import { User } from "./user"
+import { Item } from "./warframeMarket/item.js"
+import { User } from "./user.js"
+import * as WarframeMarket from './warframeMarket/index.js'
 
-export interface Order {
-    quantity: number
-    visible: boolean
-    order_type: 'buy'|'sell'
-    platinum: number
-    user: User
-    platform: string
-    creation_date: string
-    last_update: string
-    id: string
-    region: string
-    item?: Item
-  }
-  
-
+export type Order = WarframeMarket.Order & {
+  item:Item
+}
   
