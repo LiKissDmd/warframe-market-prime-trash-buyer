@@ -1,10 +1,12 @@
 {
-  "name": "warframe-market-prime-trash-buyer",
-  "version": "0.0.1-dev.0",
+  "name": "@likissdmd/warframe-market-prime-trash-buyer",
+  "version": "1.0.0",
+  "access": "public",
   "description": "",
   "main": "dist/main.js",
   "type": "module",
   "types": "dist/main.d.ts",
+  "bin": "dist/cli/main.js",
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
