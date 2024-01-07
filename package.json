@@ -11,7 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx tsc && node dist/main.js",
-    "clean-build": "rm --recursive dist && npx tsc"
+    "clean-build": "rm --recursive dist && npx tsc",
+    "build": "npx tsc"
   },
   "keywords": [],
   "author": "",
